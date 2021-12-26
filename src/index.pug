@@ -1,0 +1,26 @@
+extends _layout.pug
+
+append head 
+  link(href="css/index.css" type="text/css" rel="stylesheet")
+
+append main 
+  main.d-flex.flex-column.justify-content-between
+    .flex-grow-1.d-flex.flex-column.justify-content-center.banner-container
+      .item-group
+        .item
+          a(href="#")
+            img.d-block.d-sm-none.img-fluid(src="images/home/banner_1_xs.png")
+            img.d-none.d-sm-block.img-fluid(src="images/home/banner_1_md.png")
+        .item
+          a(href="#")
+            img.d-block.d-sm-none.img-fluid(src="images/home/banner_2_xs.png")
+            img.d-none.d-sm-block.img-fluid(src="images/home/banner_2_md.png")
+        .item
+          a(href="#")
+            img.d-block.d-sm-none.img-fluid(src="images/home/banner_3_xs.png")
+            img.d-none.d-sm-block.img-fluid(src="images/home/banner_3_md.png")
+            
+    include _footer.pug
+
+append script 
+  script(src="js/index.js")

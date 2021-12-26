@@ -1,0 +1,60 @@
+extends _layout.pug
+
+append head 
+  link(href="css/join_us.css" type="text/css" rel="stylesheet")
+
+append main 
+  main.d-flex.flex-column.justify-content-between
+    .container-fluid.join-us.d-flex.justify-content-center.align-items-center
+      .content
+        h2.order-1.order-lg-0.w-100.title JOIN US
+        .order-2.order-lg-0.form-container
+          form.d-flex.flex-column.h-100
+            p.description 會員權益：
+              br
+              | 1. 搶先收到新樂園第一手的活動消息
+            .form-group.d-flex
+             label.flex-shrink-0.col-form-label(for="inputName") 姓名
+              br
+              | NAME
+             .flex-grow-1 
+              input.form-control(id="inputName" type="text")
+            .form-group.d-flex
+             label.flex-shrink-0.col-form-label(for="inputBirthday") 生日
+              br
+              | BIRTHDAY
+             .flex-grow-1 
+              input.form-control(id="inputBirthday" type="text")
+            .form-group.d-flex
+             label.flex-shrink-0.col-form-label(for="inputPhone") 電話
+              br
+              | NUMMBER
+             .flex-grow-1 
+              input.form-control(id="inputPhone" type="tel")
+            .form-group.d-flex
+             label.flex-shrink-0.col-form-label(for="inputSex") 性別
+              br
+              | GENDER
+             .flex-grow-1 
+              input.form-control(id="inputSex" type="text")
+            .form-group.d-flex
+             label.flex-shrink-0.col-form-label(for="inputEmail") 信箱
+              br 
+              | E-MAIL
+             .flex-grow-1 
+              input.form-control(id="inputEmail" type="email")
+            .form-group.d-flex
+             label.flex-shrink-0.col-form-label(for="inputEmail") 備註
+              br
+              | CONTENT
+             .flex-grow-1 
+              textarea.w-100.h-100(id="textareaContent" rows="6")
+            .d-flex.justify-content-end   
+              button.btn.btn-primary(type="submit")
+                i
+                | Enter
+					
+    include _footer.pug
+
+append script 
+  script(src="js/join_us.js")

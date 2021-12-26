@@ -1,0 +1,47 @@
+extends _layout.pug
+
+append head 
+  link(href="css/works.css" type="text/css" rel="stylesheet")
+
+append main 
+  main.d-flex.flex-column.justify-content-between
+    .container-fluid.wrap.works
+      .row.no-qutters.py-5
+        .col-12.col-md-6.col-lg-4.px-1 
+          figure 
+            a.d-block.mb-2(href="#" data-toggle="modal" data-target="#videoModal" data-video="VTLE9uB3fwg")
+              img(src="images/home/banner_1_md.png")
+            h4.mb-0 LAVA
+            figcaption ØZI
+        .col-12.col-md-6.col-lg-4.px-1 
+          figure 
+            a.d-block.mb-2(href="#" data-toggle="modal" data-target="#videoModal" data-video="MHKnSFlDBLQ")
+              img(src="images/home/banner_2_md.png")
+            h4.mb-0 LAVA
+            figcaption ØZI
+        .col-12.col-md-6.col-lg-4.px-1 
+          figure 
+            a.d-block.mb-2(href="#" data-toggle="modal" data-target="#videoModal" data-video="MHKnSFlDBLQ")
+              img(src="images/home/banner_3_md.png")
+            h4.mb-0 LAVA
+            figcaption ØZI
+        .col-12.col-md-6.col-lg-4.px-1 
+          figure 
+            a.d-block.mb-2(href="#" data-toggle="modal" data-target="#videoModal" data-video="VTLE9uB3fwg")
+              img(src="images/home/banner_1_md.png")
+            h4.mb-0 LAVA
+            figcaption ØZI
+        
+    include _footer.pug
+  
+  .modal.fade(id="videoModal" tabindex="-1")
+    .modal-dialog.modal-dialog-centered.modal-xl
+      .modal-content  
+        button.close(type="button" data-dismiss="modal" aria-label="Close")
+          img.img-fluid(src="images/global/icon_close.png")
+        .modal-body   
+          .youtube-container 
+            iframe(width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+append script 
+  script(src="js/works.js")

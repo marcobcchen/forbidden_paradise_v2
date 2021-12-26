@@ -1,0 +1,126 @@
+﻿main{
+  // background-color: #161616;
+}
+
+.artists{
+  padding-top: 60px;
+  min-height: calc(100vh - 30px);
+
+  @media (min-width: $media_xl) {
+    padding-top: 80px;
+    min-height: calc(100vh - 50px);
+  }
+
+  .row{
+    // background-color: salmon;
+  }
+
+  .item{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 16.667%;
+    position: relative;
+    // border: 1px solid #ddd;
+    transition: flex-basis .4s ease-out;
+
+    &.open{
+      flex-basis: 50%;
+      
+      a{
+        pointer-events: visible;
+
+        &::after{
+          backdrop-filter: blur(0px);
+          -webkit-backdrop-filter: blur(0px);
+          background-color: rgba(0, 0, 0, 0);
+        }
+      }
+
+      h4{
+        opacity: 1;
+      }
+    }
+
+    a{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      pointer-events: none;
+      
+
+      &::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        transition: all .4s ease-out;
+      }
+
+      h4{
+        opacity: 0;
+        position: absolute;
+        left: 4%;
+        bottom: 4%;
+        color: #fff;
+        font-size: 24px;
+        transition: opacity .4s ease-out;
+
+        span{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  figure{
+    position: relative;
+    
+
+    a{
+      display: block;
+      
+      outline: none;
+      position: relative;
+
+      &::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: .4s;
+      }
+
+      &:hover{
+        &::before{
+          opacity: 1;
+        }
+
+        & + h4{
+          opacity: 0.5;
+        }
+      }
+    }
+    
+    h4{
+      position: absolute;
+      left: 0;
+      top: 0;
+      word-wrap: break-word;
+      transition: .4s;
+    }
+  }
+}

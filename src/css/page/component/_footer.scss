@@ -1,0 +1,41 @@
+
+footer{
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
+  border-top: 1px solid rgb(211, 211, 211);
+  padding: 0 30px;
+
+  @media (min-width: $media_md) {
+    height: 50px;
+    padding: 0 50px;
+  }
+
+  .copyright{
+    color: #000;
+    font-size: 12px;
+    letter-spacing: 0;
+    // width: 100%;
+    // max-width: 315px;
+
+    // @media (min-width: $media_md) {
+    //   max-width: 315px;
+    // }
+  }
+
+  .contact{
+    color: #000;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+
+    i{
+      display: block;
+      width: 13px;
+      height: 13px;
+      margin-right: 6px;
+      background: url(../images/global/icon_contact.png) no-repeat center center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+    }
+  }
+}
