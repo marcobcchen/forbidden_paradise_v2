@@ -11,7 +11,7 @@
         <p>With his hair dyed a fiery red, like his fiery passion for his artistry, ØZI has come a long way from being the 16 year old Taiwanese-American boy making garage band beats in his 3x3 bedroom and shooting music videos on his iPhone 7. After releasing his 2018 hit song “B.O.”, which accumulated over 14 million streams on Spotify, he has continued to develop and explore new sounds. His first album, ØZI: The Album, was nominated for six GMA awards (Mandarin Music’s equivalent to the Grammys) and won him the title of ‘Best New Artist’ that year.</p>
         <p>At the tender age of 20, he co-founded his own record label “Forbidden Paradise”. Now at 24, this charismatic individual has gone from being known as an associated act to becoming a well-established independent artist, music video director, and highly sought-after music producer. ØZI produced for many A-list Asian artists like Jolin Tsai and Rainie Yang. He has redefined the meaning of chart success in Taiwan with his Sophomore album, Pedestal, written fully in English. ØZI is always striving to discover a new self. This young artist is unafraid of exploring niche sounds and always introducing his fans to alternative genres. It is this authenticity to his Taiwanese heritage and his LA influences that differentiates him from other mainstream artists.</p>
       `,
-      cover: 'images/artist/artist_1_detail.jpg',
+      cover: 'images/artist/artist_1.jpg',
     },
     {
       id: '2',
