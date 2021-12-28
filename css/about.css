@@ -325,7 +325,6 @@ footer .contact i {
 }
 .about .description {
   width: 90%;
-  padding: 1rem 0;
 }
 @media (min-width: 768px) {
   .about .description {
@@ -334,8 +333,11 @@ footer .contact i {
   }
 }
 .about .description h2 {
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.about .description article p:last-child {
-  margin: 0;
+@media (min-width: 768px) {
+  .about .description h2 {
+    margin-top: 0rem;
+  }
 }

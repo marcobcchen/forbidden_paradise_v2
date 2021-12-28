@@ -35,7 +35,7 @@
 
   .description{
     width: 90%;
-    padding: 1rem 0;
+    // padding: 1rem 0;
 
     @media (min-width: $media_md) {
       width: 50%;
@@ -43,12 +43,18 @@
     }
     
     h2{
+      margin-top: 2rem;
       margin-bottom: 2rem;
+
+      @media (min-width: $media_md) {
+        margin-top: 0rem;
+      }
     }
 
     article{
+      
       p:last-child{
-        margin: 0;
+        // margin: 0;
       }
     }
   }

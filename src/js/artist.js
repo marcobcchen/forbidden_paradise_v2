@@ -11,31 +11,40 @@
         <p>With his hair dyed a fiery red, like his fiery passion for his artistry, ØZI has come a long way from being the 16 year old Taiwanese-American boy making garage band beats in his 3x3 bedroom and shooting music videos on his iPhone 7. After releasing his 2018 hit song “B.O.”, which accumulated over 14 million streams on Spotify, he has continued to develop and explore new sounds. His first album, ØZI: The Album, was nominated for six GMA awards (Mandarin Music’s equivalent to the Grammys) and won him the title of ‘Best New Artist’ that year.</p>
         <p>At the tender age of 20, he co-founded his own record label “Forbidden Paradise”. Now at 24, this charismatic individual has gone from being known as an associated act to becoming a well-established independent artist, music video director, and highly sought-after music producer. ØZI produced for many A-list Asian artists like Jolin Tsai and Rainie Yang. He has redefined the meaning of chart success in Taiwan with his Sophomore album, Pedestal, written fully in English. ØZI is always striving to discover a new self. This young artist is unafraid of exploring niche sounds and always introducing his fans to alternative genres. It is this authenticity to his Taiwanese heritage and his LA influences that differentiates him from other mainstream artists.</p>
       `,
-      cover: 'images/artist/artist_4.jpg',
+      cover: 'images/artist/artist_1_detail.jpg',
     },
     {
       id: '2',
-      name: '宋秉勤 sunkis',
+      name: '鶴 THE CRANE',
       intro: `
-        <p>「sunkis 宋秉勤」這位還未有人知道的神秘男孩正在用自己的方式來詮釋R&B，在一年前以個人身分發表單曲《Lemme go》雖然未造成轟動，但已吸引圈內高手注意。金曲才女孫盛希的主動邀約發表了合作歌曲《不要讓我後悔 / Realer Love》與好友ØZI的相挺合力做出《JUST DO YOU》，溫暖的聲音在其他強烈的歌手表現下反而凸顯了個性，並未被其強勢的合作歌手蓋過個人特質，在情慾與侵略性佔多數的R&B世界中，sunkis正在使用另一種方式來表達自己的愛。</p>
-        <p>同為R&B創作歌手，其創作能力完全無需它人代勞，反而也能替其他歌手寫出更具音樂性的R&B旋律，詮釋出自己獨特的風格。而sunkis在這音樂類型中剛好就是那位充滿溫暖的溫柔男子，現在他準備出來創造出另一種R&B的欣賞方式，一種溫柔的浪漫。</p>
-        <p>一位剛來台灣發展的男孩甚至連中文都還有些生澀，因為如此創作出來的歌曲，讓人感受出可愛真誠的一面，這就是sunkis對世界表達的特色，從文字中即可感受到sunkis的個性，願意在歌中表達自己的害羞，與ØZI的R&B詮釋方式有完全不同的感覺。</p>
-        <p>個人專輯的計畫中大部分歌曲皆由自己創作，呈現出的價值觀並不需要再拿出R&B的情色與侵略性，雖然有自信，但看見喜歡的人還是會害羞，如果被傷害還是會難過，自信在旋律，純情在文字的結合，讓今年誕生溫柔系R&B「sunkis 宋秉勤」。</p>
+        <p>鶴 The Crane，來自台北，人如其名鶴立於一處獨特的音樂河口交界，在另類R&B與合成器聲響的簇擁下翩翩起舞，樂理行間勾勒著對於生活的獨到見解。曲風時如夕景餘暉浸潤感官，也時如金閣晨雪般通澈寧靜，全方位的創作能力使他舉手投足皆富含優雅，賦予生活樣貌新的註解。</p>
+        <p>成長於節奏藍調盛行的千禧年，作品以當代Urban曲風結合七〇年代靈魂樂元素，也深受Stevie Wonder, Radiohead, Frank Ocean等創作者的影響。</p>
+        <p>鶴過去以多種身份活躍於獨立音樂圈，他曾擔任歌手鄭宜農的製作人、電子⺠謠樂團 他者 The Other 的 合成器手，也是歌手 HUSH的巡迴樂手，並持續參與各路音樂人的編曲。</p>
+        <p>2020年以〈LIMO〉一曲展現了過人的創作天份，高質感的作品頓時吸引了各大樂壇人士的關注，更以特色的個人幽默與 R&B 曲風推開了音樂廠牌「新樂園」的大門，並於2021年初正式加入。鶴 The Crane 將是新樂園走向國際的另一幅必備藍圖，以獨具的浪漫展翅，飛舞出前所未有的音樂軌跡。</p>
+        <p>The Crane is a singer-songwriter/producer based in Taipei. Growing up in the times when R&B music blossomed, The Crane was influenced by music from all spectrums, ranging from Stevie Wonder, Radiohead and Frank Ocean. Leading him to create his own blend of Alternative R&B and Bedroom Pop, sprinkled with soul elements from the seventies.</p>
+        <p>With The Crane’s ability to create everchanging synth sounds and rich layers of harmonies, he delivers intriguing stories with his laid-back vocals, inviting listeners to go through an otherworldly experience. His ability to play all roles from writing to production makes everything he does elegant and effortless.</p>
+        <p>The Crane had been active in the indie music scene playing multiple roles. He was the producer of Taiwanese singer Enno Cheng, Synth Player in electronic folk band The Other, he was also a tour musician for Singer HUSH. The Crane continues to work with various artists as an arranger.</p>
+        <p>The Crane showed his unmatched creativity in 2020 with his release of “LIMO”, the quality of his work attracted all the attention in Taiwan’s music scene. He joined Taiwanese music label “ Forbidden Paradise” in 2021, and was quickly considered as one of the key elements to the label’s plan to international success with his quirky humour and playful music style injected into traditional R&B sounds.</p>
       `,
-      cover: 'images/artist/artist_2.png',
+      cover: 'images/artist/artist_2_detail.jpg',
     },
     {
       id: '3',
-      name: '鶴 THE CRANE',
+      name: '米奇林',
       intro: `
-        <p>鶴 The Crane 本名林泰羽，來自台北，生於1994年，是另類R&B領域的創作新人。</p>
-        <p>成長於節奏藍調盛行的千禧年、並歷經青春期在搖滾樂中的自我探索，目前落腳在Alternative R&B、Bedroom Pop等曲風之間。作品以當代Urban曲風結合七〇年代靈魂樂元素，寫下都市生活中無關緊要的雜緒。</p>
-        <p>鶴過去以多種身份活躍於獨立音樂圈，他曾是電子⺠謠樂團 他者 The Other 的 合成器手，也是 HUSH、鄭宜農等人的巡迴樂手。更因其獨特的製作能力，擔任了鄭宜農《給天王星》專輯中數首歌曲的製作人，並持續參與各路音樂人的編曲。</p>
-        <p>2020年八月，鶴發佈了單曲〈LIMO〉，自主完成詞曲、編曲、錄製、混音、甚至擔任MV導演，在復古而鮮明的色調下，以匿名戒酒會場景呼應歌曲內容，詼諧地諷刺當代社會，並憑藉該首單曲逐漸獲得關注。</p>
-        <p>年底時更祭出第二波單曲〈I Love You More (than adore)〉，改以浪漫的口吻，描繪一位深陷愛情的主人翁，無可救藥地愛上一位難以接近的古怪女孩。歌曲中融入 Indie Pop元素，將飄逸的電吉他融入大量合成器，仿佛一場迷離而奇險的夢境旅途。</p>
-        <p>鶴 The Crane 擅於創造多變的合成器聲響、堆疊繁複的和聲，並在其慵懶的嗓音下，編織出一幅獨特的世界觀。</p>
+        <p>自2006年起便進入音樂圈耕耘至今，始終以走出國際為堅定的理念拓展著音樂版圖，並以R&B與Funk類的曲風為個人代表，在過去曾有著與《蔡依林》、《頑童MJ116》、《徐佳瑩》等巨星的合作經歷，更以頂尖的音樂製作實力入圍了30屆及32屆金曲獎的製作項目。現為R&B音樂廠牌《新樂園 Forbidden Paradise》與製作公司《孩子氣娛樂》的共同創辦人，事業版圖跨足音樂、節目、活動展演、藝人經紀等多方領域，實現了娛樂全方位的理念，持續的往國際市場邁進。</p>
+        <p>MCKY started his career in 2006 and has been expanding his musical influence with the goal of creating global success in mind. Specializing in genres such as Funk and R&B, he has collaborated with stars such as Jolin Tsai, MJ116 and Lala Hsu. He is also a nominee in the producer category both in the 30th and 32nd Golden Melody Awards. MCKY is the co-founder of R&B label Forbidden Paradise, and production company GrownForWhat Entertainment. His businesses now range from music, show production, event management, and artist management.</p>
       `,
-      cover: 'images/artist/artist_3.png',
+      cover: 'images/artist/artist_3_detail.jpg',
+    },
+    {
+      id: '4',
+      name: '剃刀蔣 RAZOR<br /><span>新樂園音樂創辦人／音樂製作人</span>',
+      intro: `
+        <p>現為新樂園音樂有限公司Forbidden Paradise 創辦人之一& 製作人 ，亦為J.Sheon 與ØZI 的製作人；與陳星翰 、陳君豪所共同製作的蔡依林《Ugly Beauty》專輯獲得亞洲音樂大獎「年度最佳製作人」獎項，及第30屆金曲獎「年度專輯獎」，個人製作的歌曲「玫瑰少年」獲得「年度歌曲獎」，製作J.Sheon《巷子內》專輯中的歌曲「輸情歌」提名第31屆金曲獎「最佳編曲人獎」</p>
+        <p>RAZOR is a Taiwanese producer, co-founder of R&B label Forbidden Paradise. He is the producer of Taiwanese singer J.Sheon and ØZI. His work on co-producing Jolin Tsai’s Album Ugly Beauty with Starr Chen and Howe won him Best Producer of the Year from Mnet Asia Music Awards, and Album of the Year from the 30th Golden Melody Awards. Razor also won Record of the Year from the GMA Awards for producing “Womxnly”, a song in the Ugly Beauty album. He was also nominated as Best Arranger of the Year at the 31st GMA Awards for his work on J.Sheon’s song “Ballad”. </p>
+      `,
+      cover: 'images/artist/artist_4_detail.jpg',
     },
   ]
 
