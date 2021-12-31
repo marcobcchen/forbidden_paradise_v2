@@ -13,7 +13,6 @@ html(lang="en")
       meta(property="og:image" content="")
       title Forbidden Paradise
       link(href="css/common/bootstrap.min.css" type="text/css" rel="stylesheet")
-      //- link(href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet")
       link(href="css/common/slick.css" type="text/css" rel="stylesheet")
   body 
     block header
@@ -43,14 +42,14 @@ html(lang="en")
                 a(href="https://www.youtube.com/channel/UCNPcDilC3VMC2V1PXL1qEKA" target="_blank")
                   img(src="images/global/icon_youtube_black.png")
     block main 
+    block loading 
+      #loading
 
     block script
-      //- script(src="https://code.jquery.com/jquery-3.1.1.min.js")
       script(src="js/vendor/jquery.min.js")
-      //- script(src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js")
       script(src="js/vendor/bootstrap.min.js")
       script(src="js/vendor/slick.min.js")
-      script(src='js/vendor/spritespin.js')
+      //- script(src='js/vendor/spritespin.js')
       script(src="js/vendor/modernizr.js")
       script(src="js/vendor/detectizr.js")
       script(src="js/vendor/jquery.html5Loader.min.js")

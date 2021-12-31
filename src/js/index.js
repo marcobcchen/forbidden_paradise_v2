@@ -27,7 +27,7 @@
     TweenMax.to($('#loading'), 0.5, {autoAlpha: 0, delay: 0.3});
 
     setSlick($('.item-group'));
-    setSpriteSpin();
+    // setSpriteSpin();
   }
 
   function onResize(){
@@ -63,33 +63,30 @@
     });
   }
 
-  function setSpriteSpin(){
-
-    $("#intro").spritespin({
-      source: SpriteSpin.sourceArray('./images/intro/motion_{frame}.png', {
-        frame: [0, 90],
-        digits: 3
-      }),
-      width: winW,
-      height: winH,
-      sense: -1,
-      // responsive: true,
-      loop: false,
-      stopFrame: 90,
-      sizeMode: 'fit',
-      onComplete: function(){
-        // console.log('done');
-      },
-      onProgress: function(){
-        // console.log('on progress');
-      },
-      onFrame: function(e, data){
-        if(data.frame > 70){
-          TweenMax.to($('#intro'), 0.6, {autoAlpha: 0});
-        }
-      }
-    });
-  }
-
-
+  // function setSpriteSpin(){
+  //   $("#intro").spritespin({
+  //     source: SpriteSpin.sourceArray('./images/intro/motion_{frame}.png', {
+  //       frame: [0, 90],
+  //       digits: 3
+  //     }),
+  //     width: winW,
+  //     height: winH,
+  //     sense: -1,
+  //     // responsive: true,
+  //     loop: false,
+  //     stopFrame: 90,
+  //     sizeMode: 'fit',
+  //     onComplete: function(){
+  //       // console.log('done');
+  //     },
+  //     onProgress: function(){
+  //       // console.log('on progress');
+  //     },
+  //     onFrame: function(e, data){
+  //       if(data.frame > 70){
+  //         TweenMax.to($('#intro'), 0.6, {autoAlpha: 0});
+  //       }
+  //     }
+  //   });
+  // }
 });

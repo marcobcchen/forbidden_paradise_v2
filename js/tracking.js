@@ -1,8 +1,1 @@
-function trackEvent(action, category, label) {
-    label = label || '';
-    gtag('event', action, {'event_category':category, 'event_label':label});
-}
-
-function trackPageView(id, title) {
-    gtag('config', id, {'page_title': title});
-}
+function trackEvent(e,t,n){n=n||"",gtag("event",e,{event_category:t,event_label:n})}function trackPageView(e,t){gtag("config",e,{page_title:t})}

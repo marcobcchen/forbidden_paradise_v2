@@ -6,9 +6,11 @@
   height: 100%;
   z-index: $z_loading;
   
-  background: url(../images/intro/motion_000.png) no-repeat center center;
-  background-size: contain;
-  background-color: #000;
+  // background: url(../images/intro/motion_000.png) no-repeat center center;
+  // background-size: contain;
+  background: url(../images/global/logo_loading_black.png) no-repeat center center;
+  background-size: 130px 130px;
+  background-color: #fff;
 
   // .logo{
   //   width: 90px;
