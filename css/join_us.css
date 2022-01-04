@@ -116,7 +116,7 @@ header .logo h1 {
   padding-top: 20.4%;
   font-size: 0;
   text-indent: -9999px;
-  background: url(../images/global/logo_black.png) no-repeat left center;
+  background: url(../images/global/logo.svg) no-repeat left center;
   background-size: contain;
 }
 header .hamburger {
@@ -188,6 +188,11 @@ header nav .nav-container {
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
 }
+@media (min-width: 576px) {
+  header nav .nav-container {
+    width: 430px;
+  }
+}
 header nav .nav-container.in {
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
@@ -208,7 +213,7 @@ header nav .nav-container .nav-group ul li {
 }
 header nav .nav-container .nav-group ul li a {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   color: #000;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -302,12 +307,12 @@ footer .contact i {
 }
 .join-us .title {
   font-size: 26px;
-  font-weight: 600;
+  font-weight: 700;
   margin-top: 60px;
 }
 .join-us .content {
   width: 90%;
-  padding: 1rem 0;
+  padding: 0 6px;
 }
 @media (min-width: 768px) {
   .join-us .content {
@@ -321,13 +326,14 @@ footer .contact i {
 }
 .join-us .form-container .description {
   font-size: 12px;
+  font-weight: 600;
   line-height: 2;
   margin-bottom: 2rem;
 }
 .join-us .form-container label {
   width: 110px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.4;
   white-space: nowrap;
   padding: 0;
@@ -335,7 +341,7 @@ footer .contact i {
 }
 .join-us .form-container label span {
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .join-us .form-container input {
   color: #000;
@@ -371,6 +377,7 @@ footer .contact i {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   color: #a5a5a5;
+  font-weight: 600;
 }
 .join-us .form-container button i {
   display: block;

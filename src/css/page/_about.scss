@@ -3,10 +3,11 @@
 }
 
 .about{
+  font-weight: 600;
   padding-top: 60px;
 
   @media (min-width: $media_md) {
-    padding-top: 100px;
+    padding-top: 80px;
     min-height: calc(100vh - 50px);
   }
 
@@ -45,9 +46,9 @@
     
     h2{
       font-size: 26px;
-      font-weight: 600;
-      margin-top: 2rem;
-      margin-bottom: 2rem;
+      font-weight: 700;
+      margin-top: 60px;
+      margin-bottom: 60px;
 
       @media (min-width: $media_md) {
         margin-top: 0rem;
@@ -57,11 +58,11 @@
     article{
 
       p{
-        margin-bottom: 2rem;
+        margin-bottom: 40px;
       }
       
       p:last-child{
-        margin: 0;
+        // margin: 0;
       }
     }
   }

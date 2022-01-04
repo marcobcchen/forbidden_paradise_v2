@@ -116,7 +116,7 @@ header .logo h1 {
   padding-top: 20.4%;
   font-size: 0;
   text-indent: -9999px;
-  background: url(../images/global/logo_black.png) no-repeat left center;
+  background: url(../images/global/logo.svg) no-repeat left center;
   background-size: contain;
 }
 header .hamburger {
@@ -188,6 +188,11 @@ header nav .nav-container {
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
 }
+@media (min-width: 576px) {
+  header nav .nav-container {
+    width: 430px;
+  }
+}
 header nav .nav-container.in {
   -webkit-transform: translateX(0%);
           transform: translateX(0%);
@@ -208,7 +213,7 @@ header nav .nav-container .nav-group ul li {
 }
 header nav .nav-container .nav-group ul li a {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   color: #000;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -357,12 +362,20 @@ footer .contact i {
 .artists .item a h4 {
   opacity: 0;
   position: absolute;
-  left: 4%;
-  bottom: 4%;
+  left: 12%;
+  bottom: 6%;
   color: #fff;
   font-size: 24px;
+  line-height: 0.9;
+  margin: 0;
   -webkit-transition: opacity 0.4s ease-out;
   transition: opacity 0.4s ease-out;
+}
+@media (min-width: 768px) {
+  .artists .item a h4 {
+    left: 12%;
+    bottom: 6%;
+  }
 }
 .artists .item a h4 span {
   font-size: 14px;

@@ -3,11 +3,16 @@
 }
 
 .works{
-  padding-top: 60px;
+  font-weight: 600;
+  padding-top: 100px;
 
   @media (min-width: $media_xl) {
-    padding-top: 100px;
+    padding-top: 80px;
     min-height: calc(100vh - 50px);
+  }
+
+  .row{
+    padding-top: 70px;
   }
 
   figure{
@@ -36,6 +41,15 @@
           opacity: 0.5;
         }
       }
+    }
+
+    h4{
+      margin-top: 20px;
+      font-weight: 700;
+    }
+
+    figcaption{
+      margin-bottom: 20px;
     }
 
     h4, figcaption{
