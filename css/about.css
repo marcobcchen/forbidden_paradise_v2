@@ -345,11 +345,6 @@ footer .contact i {
   margin-top: 60px;
   margin-bottom: 60px;
 }
-@media (min-width: 768px) {
-  .about .description h2 {
-    margin-top: 0rem;
-  }
-}
 .about .description article p {
   margin-bottom: 40px;
 }
